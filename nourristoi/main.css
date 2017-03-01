@@ -1,121 +1,153 @@
 body {
-  font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 .container-fluid {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
-  width: 30px;
-  height: 30px;
-  margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
 }
 
 header {
-  margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .header-background {
-  background-image: url(img/header.jpg);
-  margin-left: 0;
-  margin-right: 0;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 100vh;
-  text-align: center;
-  padding-top: 10px;
-  color: white;
+    background-image: url(img/header.jpg);
+    margin-left: 0;
+    margin-right: 0;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
 }
 
 .top-menu {
-  width: 100%;
-  font-size: 16px;
+    width: 100%;
+    font-size: 16px;
+    margin: 0;
 }
 
 .icon-cart {
-  color: white;
-  font-size: 25px;
-  vertical-align: middle;
-  margin-right: 35px;
+    color: white;
+    font-size: 25px;
+    vertical-align: middle;
+    margin-right: 35px;
 }
 
 .language {
-  margin-right: 35px;
-  color: white;
+    margin-right: 35px;
+    color: white;
 }
 
 .search {
-  padding-top: 140px;
-  color: white;
+    padding-top: 140px;
+    color: white;
 }
 
-.highlight {
-  text-transform: uppercase;
-  font-size: 4rem;
-  margin-bottom: 30px;
+h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-bottom: 30px;
 }
 
 .header-choices {
-  width: 100%;
+    width: 100%;
 }
 
 .cta-header {
-  background: #D70F64;
-  border: #D70F64;
-  color: white;
-  text-transform: uppercase;
+    background: #D70F64;
+    border: #D70F64;
+    color: white;
+    text-transform: uppercase;
 }
 
 .cta-header:hover {
     color: #fff;
     background: #BF165B;
-  }
+}
 
 .stores img {
-  margin-top: 235px;
-  width: 10%;
+    margin-top: 235px;
+    width: 10%;
 }
+
 
 /*middle-content*/
+
 .middle-content {
-  text-align: center;
-  margin-top: 115px;
-}
-.middle-content p {
-  font-size: 30px;
-  color: #D70F64;
-  line-height: 0.2;
+    text-align: center;
+    margin-top: 115px;
+    margin-right: 0;
 }
 
-.middle-content h2 {
-  text-transform: uppercase;
-  font-size: 39px;
-  margin-bottom: 50px;
+h2 {
+    font-size: 30px;
+    color: #D70F64;
+    line-height: 0.2;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 39px;
+    margin-bottom: 50px;
 }
 
 .restoselection img {
-  width: 15%;
-  margin-top: 35px;
+    width: 15%;
+    margin-top: 35px;
 }
 
 .cityselection img {
-  width: 80%;
-  margin-top: 22px;
+    width: 80%;
+    margin-top: 22px;
 }
 
+
 /*phone*/
+
 .img_phone {
+    width: 50%;
+}
+
+.icone_store {
+    padding-top: 10%;
+}
+
+.icone_store_black {
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+p {
+  color: black;
+  font-size: 1em;
+}
+
+.commencez {
   width: 50%;
 }
-.icone_store {
-  padding-top: 10%;
-}
-.icone_store_black {
-  width: 80%;
-  margin-bottom: 10%;
+
+.avantgarde-background {
+    background-image: url(img/plats.jpg);
+    margin-left: 0;
+    margin-right: 0;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
 }
